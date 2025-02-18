@@ -12,7 +12,7 @@ export default function ContactPage() {
       <h2 className="text-xl md:text-2xl font-medium">Work</h2>
       <span className="mt-5 h-0 block" />
       <p className="text-muted-foreground">
-        I'm a developer who loves working with code and collaborating with startups in projects that solve real-world issues. My focus is to contribute to the team and learn from them.
+        I&apos;m a developer who loves working with code and collaborating with startups in projects that solve real-world issues. My focus is to contribute to the team and learn from them.
       </p>
       <span className="mt-12 h-0 block" />
 
