@@ -4,7 +4,7 @@ export const externals = {
     name: "Vidyavardhaka College of Engineering",
     site: "https://vvce.ac.in/",
   },
-  base_url: "https://suresh.im",
+  base_url: "https://ishaanchoubey1.vercel.app/",
   logo_text: "Ishaan.",
   footer_logo_text: "Ishaan Choubey",
   name: "ishaan",
