@@ -22,7 +22,7 @@ export default function Home() {
       </p>
       <span className="mt-5 h-0 block" />
       <p className="text-muted-foreground">
-        Currently I&apos;m in my final year CSE (AI&ML) at
+        Final year student at
         <b className="font-normal text-secondary-foreground">
           <Link target="_blank" href={externals.compony.site}>
             {" "}
