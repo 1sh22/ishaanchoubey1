@@ -59,7 +59,7 @@ export const experiences = [
         fromToTill: "Feb 2025 - Present",
         type: "Full-Time",
         notes: [
-          "Learning about the company's data analytics platform. My role involves creating and managing data, designing and implementing data models, and developing interactive dashboards for data visualization.",
+          "Still figuring out stuff here",
         ],
       },
     ],
