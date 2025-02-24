@@ -13,7 +13,7 @@ export default function Home() {
           Ishaan Choubey,{" "}
         </b>
         a developer based in{" "}
-        <b className="font-normal text-secondary-foreground"> Bengaluru, India.</b> I work with code and sometimes write about tech and things I&apos;m interested in (Mostly tech and startups)
+        <b className="font-normal text-secondary-foreground"> Bengaluru, India.</b> I work with code and sometimes write about things I&apos;m interested in (Mostly tech and startups)
         
         <b className="font-normal text-secondary-foreground">
       

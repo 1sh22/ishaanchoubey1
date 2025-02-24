@@ -20,8 +20,8 @@ export default function Navbar() {
           </Link>
         </li>
         {/* <li className="text-muted-foreground hover:text-white">
-          <Link className="flex items-center px-1" href={"/work"}>
-            work
+          <Link className="flex items-center px-1" href={"/blog"}>
+            blog
           </Link>
         </li> */}
         <li className="text-muted-foreground hover:text-white">
