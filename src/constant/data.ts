@@ -23,7 +23,7 @@ export const projects = [
   {
     name: "Pixel.ai",
     description:
-      "AI-powered image processing SaaS platformfeaturing image restoration, object removal, and secure authentication.",
+      "AI-powered image processing SaaS platform featuring image restoration, object removal, and secure authentication.",
     link: "https://github.com/1sh22/pixel-ai",
   },
   {
