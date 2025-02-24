@@ -14,7 +14,9 @@ export default function ContactPage() {
       <h2 className="text-xl md:text-2xl font-medium">Say hello,</h2>
       <span className="mt-5 h-0 block" />
       <p className="text-muted-foreground">
-      Whether it&apos;s brainstorming projects or just a casual chat, I&apos;m always up for a good conversation. If you&apos;re in Bengaluru and wanna chat over coffee, hmu! Let&apos;s connect beyond just {" "}
+      Whether it&apos;s brainstorming projects or just a casual chat, I&apos;m always up for a good conversation. If you&apos;re in {" "} <b className="font-normal text-secondary-foreground">Bengaluru</b> and wanna collaborate or chat over coffee, hmu! 
+      <br />
+      Let&apos;s connect beyond just {" "}
         <b className="font-normal text-secondary-foreground">work</b>!
         
       </p>
