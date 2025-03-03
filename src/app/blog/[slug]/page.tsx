@@ -1,7 +1,6 @@
 "use client";
 
 import EmptyPlaceholder from "@/components/custom/empty-placeholder";
-import { externals } from "@/constant/data";
 import { cn } from "@/lib/utils";
 import { Blog, allBlogs } from "contentlayer/generated";
 import { ArrowLeft, NotebookPen } from "lucide-react";
@@ -11,12 +10,11 @@ import { notFound } from "next/navigation";
 
 const PostLayout = ({ params }: { params: { slug: string } }) => {
   const post = allBlogs.find((post: Blog) => post._raw.flattenedPath === params.slug);
+  const MDXContent = useMDXComponent(post?.body.code || "");
 
   if (!post) {
     return notFound();
   }
-
-  const MDXContent = useMDXComponent(post.body.code);
 
   if (post.published === false) {
     return (
