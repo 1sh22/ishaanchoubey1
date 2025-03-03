@@ -25,7 +25,7 @@ export default function ContactPage() {
       <Link
         href={Links.email}
         className="text-lg tooltip"
-        aria-label="Example "
+        aria-label="Keep the subject line purposeful to help prioritize responses."
       >
         {Links.email.replace("mailto:", "")}
       </Link>
