@@ -19,15 +19,15 @@ export default function Navbar() {
             about
           </Link>
         </li>
-        {/* <li className="text-muted-foreground hover:text-white">
-          <Link className="flex items-center px-1" href={"/blog"}>
+        <li className="text-muted-foreground hover:text-white">
+          <Link className="flex items-center" href={"/blog"}>
             blog
           </Link>
-        </li> */}
+        </li>
         <li className="text-muted-foreground hover:text-white">
         </li>
         <li className="text-muted-foreground hover:text-white">
-          <Link className="flex items-center pl-1" href={"/contact"}>
+          <Link className="flex items-center" href={"/contact"}>
             contact
           </Link>
         </li>

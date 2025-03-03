@@ -1,5 +1,8 @@
+import BlogRow from "@/components/custom/blog-row";
 import Project from "@/components/custom/project";
 import { externals, projects } from "@/constant/data";
+import { parseDate } from "@/lib/utils";
+import { allBlogs } from "contentlayer/generated";
 import Link from "next/link";
 
 export default function Home() {
@@ -38,7 +41,28 @@ export default function Home() {
         {projects.map((project, i) => (
           <Project {...project} key={`proj-${i}`} />
         ))}
+
+        
       </div>
+      <span className="mt-12 h-0 block" />
+      <h2 className="text-lg md:text-xl font-medium">Blogs</h2>
+      <span className="mt-3 h-0 block" />
+      
+      {allBlogs
+  .filter((blog) => blog.published)
+  .slice(0, 2)
+  .sort((a, b) => parseDate(b.date) - parseDate(a.date))
+  .map((blog) => (
+    <BlogRow
+      date={blog.date}
+      slug={blog._raw.flattenedPath}  // Use flattenedPath instead of url
+      title={blog.title}
+      key={blog._id}
+    />
+  ))}
+      {allBlogs.length > 5 && (
+        <BlogRow date="" slug="blog" title="All posts ↗" />
+      )}
     </main>
   );
 }

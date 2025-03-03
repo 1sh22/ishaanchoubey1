@@ -9,7 +9,7 @@ interface BlogRowProps {
 export default function BlogRow({ slug, title, date }: BlogRowProps) {
   return (
     <Link
-      href={`/${slug}`}
+      href={`/blog/${slug}`}
       className="text-muted-foreground flex flex-col justify-between hover:text-secondary-foreground py-3 md:flex-row gap-1"
     >
       <h3 className="md:border-b-2 md:max-w-none">

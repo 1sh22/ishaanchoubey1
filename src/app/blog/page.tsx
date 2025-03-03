@@ -6,13 +6,13 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: `${externals.name} . blog`,
-  description: "Less, but I share my thoughts here.",
+  description: "I share my thoughts here.",
 };
 
 export default function Blog() {
   return (
     <main className="mt-8 min-h-[calc(100vh_-_132px)]">
-      <h2 className="text-xl md:text-2xl font-medium">blog,</h2>
+      <h2 className="text-xl md:text-2xl font-medium">Blog</h2>
       <span className="mt-4 h-0 block" />
       {allBlogs
         .filter((blog) => blog.published)
