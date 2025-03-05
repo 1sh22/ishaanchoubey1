@@ -31,7 +31,13 @@ figure code {
 }
 
 .blog-content {
-  animation: fadeScrollUp 0.15s;
+  animation: none;
+}
+
+@media (min-width: 768px) {
+  .blog-content {
+    animation: fadeScrollUp 0.15s;
+  }
 }
 
 .blog-content > :not(:last-child) {
