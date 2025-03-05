@@ -7,10 +7,15 @@ import { ArrowLeft, NotebookPen } from "lucide-react";
 import { useMDXComponent } from "next-contentlayer/hooks";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { useEffect } from "react";
 
 const PostLayout = ({ params }: { params: { slug: string } }) => {
   const post = allBlogs.find((post: Blog) => post._raw.flattenedPath === params.slug);
   const MDXContent = useMDXComponent(post?.body.code || "");
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   if (!post) {
     return notFound();
