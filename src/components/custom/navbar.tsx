@@ -12,19 +12,19 @@ export default function Navbar() {
         {externals.logo_text}
       </Link>
 
-      <ul className="flex items-center gap-1 md:gap-2">
+      <ul className="flex items-center gap-4 md:gap-6">
         <li className="text-muted-foreground hover:text-foreground">
           <Link className="flex items-center px-1" href={"/about"}>
             about
           </Link>
         </li>
         <li className="text-muted-foreground hover:text-foreground">
-          <Link className="flex items-center" href={"/blog"}>
+          <Link className="flex items-center px-1" href={"/blog"}>
             blog
           </Link>
         </li>
         <li className="text-muted-foreground hover:text-foreground">
-          <Link className="flex items-center" href={"/contact"}>
+          <Link className="flex items-center px-1" href={"/contact"}>
             contact
           </Link>
         </li>
