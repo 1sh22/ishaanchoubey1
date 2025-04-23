@@ -59,7 +59,7 @@ export const experiences = [
         fromToTill: "Feb 2025 - Present",
         type: "Full-Time",
         notes: [
-          "Working with AI agents to optimize how data is stored and retrieved for faster performance in Fullstack applications."
+          "Working with AI agents to improve data storage and retrieval speed in fullstack apps"
         ],
       },
     ],
