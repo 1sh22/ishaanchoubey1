@@ -55,11 +55,11 @@ export const experiences = [
     location: "Bengaluru, India (On-site)",
     positions: [
       {
-        name: "Business Intelligence Intern",
+        name: "Software Engineer Intern",
         fromToTill: "Feb 2025 - Present",
         type: "Full-Time",
         notes: [
-          "Still figuring out stuff here",
+          "Working with AI agents to optimize how data is stored and retrieved for faster performance in Fullstack applications."
         ],
       },
     ],
