@@ -68,6 +68,16 @@
 }
 
 @layer base {
+  :root {
+    --background: 240 10% 3.9%; /* Default dark mode background */
+  }
+
+  .light {
+    --background: 40 56% 93%; /* Light mode background (adjusted for #fdf6e3) */
+  }
+}
+
+@layer base {
   * {
     @apply border-[hsl(var(--border))];
   }
