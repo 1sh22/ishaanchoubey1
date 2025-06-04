@@ -51,7 +51,7 @@ export const Links = {
 
 export const experiences = [
   {
-    companyName: "Smart ERP Solutions",
+    companyName: "Mythics",
     location: "Bengaluru, India (On-site)",
     positions: [
       {

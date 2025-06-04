@@ -66,22 +66,23 @@ export default function Home() {
 
       {/* Horizontal Scrollable Section */}
       <section className="mt-12">
-        <h2 className="text-lg md:text-xl font-medium mb-4">Shots</h2>
-        <div className="flex gap-6 overflow-x-scroll scrollbar-hide">
-          {images.map((src, index) => (
-            <div
-              key={index}
-              className="min-w-[200px] h-[200px] bg-gray-200 rounded-md flex-shrink-0"
-            >
-              <img
-                src={src}
-                alt={`Gallery Image ${index + 1}`}
-                className="w-full h-full object-cover rounded-md"
-              />
-            </div>
-          ))}
-        </div>
-      </section>
+  <h2 className="text-lg md:text-xl font-medium mb-4">Shots</h2>
+  <div className="flex gap-6 overflow-x-auto scrollbar-hide">
+    {images.map((src, index) => (
+      <div
+        key={index}
+        className="min-w-[200px] h-[200px] bg-gray-200 rounded-md flex-shrink-0 overflow-hidden"
+      >
+        <img
+          src={src}
+          alt={`Gallery Image ${index + 1}`}
+          className="w-[200px] h-[200px] object-cover rounded-md"
+        />
+      </div>
+    ))}
+  </div>
+</section>
+
     </main>
   );
 }
