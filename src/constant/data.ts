@@ -21,16 +21,16 @@ export const projects = [
     link: "https://github.com/1sh22/Aerostride",
   },
   {
-    name: "Pixel.ai",
+    name: "Multimodal Emotion Classifier",
     description:
-      "AI-powered image processing SaaS platform featuring image restoration, object removal, and secure authentication.",
-    link: "https://github.com/1sh22/pixel-ai",
+      "Combines TF-IDF, traditional classifiers, and LSTM to detect emotions from user input.",
+    link: "https://github.com/1sh22/emotional-intelligence-nlp",
   },
   {
-    name: "Folklore.ai",
+    name: "BisiBeleBot",
     description:
-      "Generation of stories based on Indian mythology and folklore.",
-    link: "https://github.com/1sh22/Folklore-ai",
+      "A recipe app showcasing iconic dishes inspired by Karnataka",
+    link: "https://github.com/1sh22/BisiBeleBot",
   },
   {
     name: "Fake news detection",
