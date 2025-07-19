@@ -14,12 +14,12 @@ export const externals = {
 
 export const projects = [
 
-  {
-    name: "Aerostride",
-    description:
-      "Visually engaging and user-friendly landing page for AeroStride, showcasing products brand identity with a seamless user experience.",
-    link: "https://github.com/1sh22/Aerostride",
+    {
+    name: "MediMitra: Your Healthcare Companion",
+    description: "MediMitra is dedicated to making healthcare accessible, simple, and secure for everyone.",
+    link: "https://github.com/1sh22/medimitra",
   },
+
   {
     name: "Multimodal Emotion Classifier",
     description:
@@ -33,9 +33,10 @@ export const projects = [
     link: "https://github.com/1sh22/BisiBeleBot",
   },
   {
-    name: "Fake news detection",
-    description: "Fake news detection model using PAC, implementing text preprocessing, feature extraction.",
-    link: "https://github.com/1sh22/Fake-news-detection-model-Code-Crew-",
+    name: "Aerostride",
+    description:
+      "Visually engaging and user-friendly page for AeroStride, showcasing products brand identity with a seamless user experience.",
+    link: "https://github.com/1sh22/Aerostride",
   }
 
 ];
@@ -56,10 +57,10 @@ export const experiences = [
     positions: [
       {
         name: "Software Engineer Intern",
-        fromToTill: "Feb 2025 - Present",
+        fromToTill: "Feb 2025 - June 2025",
         type: "Full-Time",
         notes: [
-          "Working with AI agents to improve data storage and retrieval speed in fullstack apps"
+          "Worked with AI agents to improve data storage and retrieval speed in fullstack apps. Analyzed backend APIs to streamline data access and reduce response times."
         ],
       },
     ],

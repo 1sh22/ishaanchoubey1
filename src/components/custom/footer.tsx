@@ -10,12 +10,15 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="py-3 flex items-center justify-between">
-      <Link href={"/"} className="text text-muted-foreground hover:text-white">
+      <Link
+        href={"/"}
+        className="text text-muted-foreground hover:text-foreground"
+      >
         {externals.footer_logo_text}
       </Link>
 
       <ul className="flex gap-1 md:gap-2 items-center links">
-        <li className="text-muted-foreground hover:text-white">
+        <li className="text-muted-foreground hover:text-foreground">
           <Link
             className="flex items-center px-1 tooltip"
             href={Links.email}
@@ -24,7 +27,7 @@ export default function Footer() {
             {EmailIcon}
           </Link>
         </li>
-        <li className="text-muted-foreground hover:text-white">
+        <li className="text-muted-foreground hover:text-foreground">
           <Link
             className="flex items-center px-1 tooltip"
             href={Links.github}
@@ -33,7 +36,7 @@ export default function Footer() {
             {GithubIcon}
           </Link>
         </li>
-        <li className="text-muted-foreground hover:text-white">
+        <li className="text-muted-foreground hover:text-foreground">
           <Link
             className="flex items-center px-1 tooltip"
             href={Links.linkedin}
@@ -43,8 +46,7 @@ export default function Footer() {
           </Link>
         </li>
 
-
-        <li className="text-muted-foreground hover:text-white">
+        <li className="text-muted-foreground hover:text-foreground">
           <Link
             className="flex items-center pl-1 tooltip"
             href={Links.x}

@@ -1,12 +1,13 @@
 import { experiences, externals, leadershipExperiences } from "@/constant/data";
 import { cn } from "@/lib/utils";
 import { Metadata } from "next";
+import OpenForRolesNotice from "./OpenForRolesNotice";
 
 export const metadata: Metadata = {
   title: `${externals.name} . about`,
 };
 
-export default function ContactPage() {
+export default function AboutPage() {
   return (
     <main className="mt-8 min-h-[calc(100vh_-_132px)] ">
       <h2 className="text-xl md:text-2xl font-medium">Work</h2>
@@ -14,8 +15,8 @@ export default function ContactPage() {
       <p className="text-muted-foreground">
         I write code to solve problems, collaborating with startups to create impact and sharpen my skills in the process. My semicolons bring more drama than a soap opera.
       </p>
-      <span className="mt-12 h-0 block" />
-
+      <span className="mt-9 h-0 block" />
+<OpenForRolesNotice />
       {experiences.map((ex, index) => (
         <div className="mb-8" key={`ex-${index}`}>
           <h2 className="text-xl font-medium">{ex.companyName}</h2>
@@ -45,6 +46,8 @@ export default function ContactPage() {
           </div>
         </div>
       ))}
+
+      
 
       <h2 className="text-xl md:text-2xl font-medium mt-12">Leadership</h2>
       <span className="mt-5 h-0 block" />
