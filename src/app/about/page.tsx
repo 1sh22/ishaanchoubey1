@@ -16,7 +16,7 @@ export default function AboutPage() {
         I write code to solve problems, collaborating with startups to create impact and sharpen my skills in the process. My semicolons bring more drama than a soap opera.
       </p>
       <span className="mt-9 h-0 block" />
-<OpenForRolesNotice />
+{/* <OpenForRolesNotice /> */}
       {experiences.map((ex, index) => (
         <div className="mb-8" key={`ex-${index}`}>
           <h2 className="text-xl font-medium">{ex.companyName}</h2>
